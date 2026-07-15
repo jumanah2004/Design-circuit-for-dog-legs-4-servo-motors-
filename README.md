@@ -18,7 +18,7 @@ To open and run the circuit in Tinkercad, use the following link:
 
 ## 🖼️ Circuit Diagram & video
 
-![Circuit Diagram]()
+![Circuit Diagram](https://github.com/jumanah2004/Design-circuit-for-dog-legs-4-servo-motors-/blob/ad557e92e85d8b82b050a89343ffa2ce91c38a3d/dog%20legs(4servo%20motors).png)
 
 ---
 
@@ -76,3 +76,11 @@ void setup() {
 void loop() {
   // Loop is empty because the setup handles the timed movement once
 }
+```
+----
+📝 Simple Code Explanation
+
+* Pin Connections: The code connects 4 servo motors to Arduino pins 3, 5, 6, and 9 (which are PWM-enabled pins).
+* Sweep Movement: Upon startup, all four motors perform a synchronized sweep movement back and forth between 0° and 180° for exactly 2 seconds.
+* Hold Position: Once the 2-second limit is reached, the active movement loop breaks, and all servo motors immediately transition to 90° and lock in that position.
+* Robotic Dog Application: This sequence is designed to simulate a quick "calibration" or synchronized leg movement, ending with the robotic dog standing in a stable, neutral position.
