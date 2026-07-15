@@ -21,7 +21,7 @@ To open and run the circuit in Tinkercad, use the following link:
 ![Circuit Diagram](https://github.com/jumanah2004/Design-circuit-for-dog-legs-4-servo-motors-/blob/ad557e92e85d8b82b050a89343ffa2ce91c38a3d/dog%20legs(4servo%20motors).png)
 
 
-https://github.com/user-attachments/assets/1b869a7c-ef25-4b6b-9dcd-515da866091b
+
 ---
 
 ## 💻 Arduino Code
